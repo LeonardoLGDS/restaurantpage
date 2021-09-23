@@ -3,16 +3,14 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    // optimization: {
-    //     runtimeChunk: 'single'
-    // },
+
     entry: {
         index: './src/index.js',
     },
     devServer: {
         static: './dist',
     },
-    // devtool: 'inline-source-map',
+    //devtool: 'inline-source-map',
     // plugins: [
     //     new HtmlWebpackPlugin({
     //         title: 'Output Management',
@@ -38,10 +36,6 @@ module.exports = {
                     'style-loader',
                     'css-loader',
                 ],
-            },
-            {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
             },
 
         ],

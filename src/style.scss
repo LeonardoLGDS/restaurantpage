@@ -1,11 +1,19 @@
+body {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
 div {
     margin: 10px;
     border-radius: 25px 0px;
     justify-content: center;
-    background-color: white;
+    border: 1px;
+    box-shadow: 0px 0px 15px silver;
 }
 
 #container-top {
+    border-radius: 25px 25px 0px 0px;
     height: 25vh;
     width: 97vw;
     display: block;
@@ -15,14 +23,23 @@ div {
 .block {
     width: 97vw;
     display: flex;
-    justify-content: center;
 }
 
 .buttons {
     height: 25%;
     width: 10vw;
     text-align: center;
-    border-radius: 50px 20px;
+    border-radius: 20px 20px;
+}
+
+.buttons:hover {
+    background-color: rgb(241, 238, 238)
+}
+
+.buttons:active {
+    background-color: rgb(241, 238, 238);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 #item3-bottom {
@@ -37,6 +54,7 @@ div {
 }
 
 #foot-note {
+    border-radius: 0px 0px 25px 25px;
     width: 97vw;
     position: absolute;
     bottom: 0;
