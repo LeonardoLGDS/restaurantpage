@@ -1,0 +1,44 @@
+div {
+    margin: 10px;
+    border-radius: 25px 0px;
+    justify-content: center;
+    background-color: white;
+}
+
+#container-top {
+    height: 25vh;
+    width: 97vw;
+    display: block;
+    justify-content: center;
+}
+
+.block {
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    height: 25%;
+    width: 10vw;
+    text-align: center;
+    border-radius: 50px 20px;
+}
+
+#item3-bottom {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 97vw;
+}
+
+.third-layer {
+    width: 97vw;
+}
+
+#foot-note {
+    width: 97vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
